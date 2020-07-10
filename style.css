@@ -5,8 +5,8 @@
     padding: 0;
     position: relative;
     width: 100%;
-
 }
+
 body {
     align-items: center;
     background-color: lightsalmon;
@@ -18,10 +18,7 @@ body {
     width: 100vw;
 }
 
-nav {
-    background-color: white;
-    display: inline;
-    margin-top: 10px;
+.nav {
     position: fixed;
     top: 0;
 }
@@ -29,6 +26,9 @@ nav {
 .wrapper {
     background-color: white;
     border-radius: 5px;
+    display: block;
+    margin: auto;
+    max-width: 80%;
     padding: 10px;
     text-align: center;
 }
