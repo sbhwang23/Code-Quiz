@@ -21,12 +21,20 @@ body {
 .nav {
     position: fixed;
     top: 0;
+    padding: 10px;
+}
+
+#timeLeft {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
 }
 
 .wrapper {
     background-color: white;
     border-radius: 5px;
     display: block;
+    line-height: 30px;
     margin: auto;
     max-width: 80%;
     padding: 10px;
@@ -52,10 +60,23 @@ body {
     background-color: lightcyan;
     border-color: lightsteelblue;
     border-radius: 5px;
+    margin-top: 10px;
     padding: 5px 10px;
+    width: 60%;
 }
 
 .btn:hover {
     border-color: teal;
 }
 
+.scoreInitials {
+    width: 55%
+}
+
+.returnbtn {
+    margin-bottom: 50px;
+}
+
+.navBarHighscore {
+    padding-bottom: 30px;
+}

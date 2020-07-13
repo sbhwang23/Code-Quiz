@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="nav">
-        <div id="navBar">
-            <a href="#">View Highscores</a>
-            <h4>Time: <span id="timeLeft">0</span></h4>
+        <div id="navBar" class="navBar">
+            <a href="highscore.html" class= "viewScore">View Highscores</a> 
+            <span id="timeLeft">Time: 0</span></h2>
         </div>
     </div>
         
@@ -18,13 +18,23 @@
     <div class="wrapper">
         <div id="startingPage">
             <h1>Coding Quiz Challenge</h1>
-            <p>Test your JavaScript knowledge!</p>
+            <h2>Test your JavaScript knowledge!</h2>
+            <p>You have 75 seconds to answer 5 questions.</p>
+            <p>Note: every wrong answer will deduct 15 seconds!</p>
             <button id="startButton" class="startBtn btn">Begin quiz!</button>
         </div>
 
     <div id="question-wrapper" class='hide'>
         <h2 id="question-header"></h2>
         <div id="choices" class="choices"></div>
+    </div>
+
+    <div id="endQuiz" class='hide'>
+        <h2>Let's see how you did!</h2>
+        <div id = "score"></div>
+        <p>Enter your initials to save your score!</p>
+        <input type= "text" id= "scoreInitials" class= "scoreInitials" placeholder="Enter your initials">
+        <button id="submitBtn" class="submitBtn btn" size="4">Submit initials</button>
     </div>
        
                    
