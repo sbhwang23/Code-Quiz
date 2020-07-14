@@ -50,10 +50,8 @@ function answerCheck() {
 
     } else if (this.value !== questionsArray[currentQuestionIndex].answer) {
         sec -= 15;
-        
     }
         currentQuestionIndex ++;
-
         if(currentQuestionIndex === questionsArray.length) {
             showScore();
         } else {
