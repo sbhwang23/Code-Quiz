@@ -4,4 +4,3 @@ The high scores page pulls from the local storage data. The initials and scores 
 
 Code Quiz(https://sbhwang23.github.io/Homework04/)
 
-![picture](desktop/codeQuiz.png)
