@@ -2,5 +2,5 @@ This is a simple 5 question quiz. When the start button is pressed, each questio
 The high scores page pulls from the local storage data. The initials and scores saved in local storage will be visible on this page. 
 
 
-Code Quiz(https://sbhwang23.github.io/Homework04/)
+[Code Quiz](https://sbhwang23.github.io/Homework04/)
 
